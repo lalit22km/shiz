@@ -1,0 +1,55 @@
+baseURL = "https://shiz.site"
+languageCode = "en-us"
+title = "Shiz"
+theme = "hugo-index"
+pygmentsUseClasses = true
+enableInlineShortcodes = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+titleIcon = "index.png"
+showDescriptioninHome = false
+hideAllTagsinHome = false
+
+  [params.headers]
+  key = "Title"
+  value = "Tags"
+
+[permalinks]
+tags = "@:slug"
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true

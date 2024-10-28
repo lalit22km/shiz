@@ -1,0 +1,4 @@
+[submodule "shiz/public"]
+	path = shiz/public
+	url = https://github.com/lalit22km/shiz.site.git
+	branch = main
